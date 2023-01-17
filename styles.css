@@ -1,4 +1,28 @@
-body {
-    color: aliceblue;
-    background-color: #424242;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+html, body
+{
+    margin: 0px;
+}
+
+header, footer
+{
+    margin: 0 auto;
+	padding: 5em 3em;
+	text-align: center;
+    background: #0c0c0c;
+}
+
+footer span
+{
+  color: #FFFFFF;
+}
+footer span a {
+    color: #fd5805;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 180%;
+}
+
+.Create {
+    padding: .28em;
 }
